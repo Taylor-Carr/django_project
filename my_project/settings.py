@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xci79!o$83ldg32j+g6aqw(ncu!hzdh+w0zv*$7&%s$5zg9jsl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-taylorcarr-djangoprojec-9qvynqqj4co.ws-eu108.gitpod.io']
 
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
+    'about',
+    '.herokuapp',
 ]
 
 MIDDLEWARE = [
